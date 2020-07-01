@@ -1,0 +1,19 @@
+.session-form {
+    width: max-content;
+    padding: 1em;
+    border-radius:8px;
+    box-shadow: var(--shadow-l);
+    place-self: center;
+
+
+    button {
+      display: grid;
+      grid-auto-flow: column;
+      align-items: center;
+      background: var(--button-color);
+      width: max-content;
+      padding: .8em 2em;
+      column-gap: 1em;
+      justify-self: end;
+    }
+}

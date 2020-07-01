@@ -1,0 +1,17 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: max-content 1fr;
+}
+
+form {
+  display: grid;
+  row-gap: 0.5em;
+  label {
+    display: grid;
+    input {
+      padding: 0.5em 1em;
+    }
+  }
+}
